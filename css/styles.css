@@ -518,7 +518,7 @@ footer .container {
 
 .footer-form {}
 
-.subscription-field {
+.subscription-label {
     display: block;
     color: #FFF;
         font-size: 16px;
@@ -528,7 +528,7 @@ footer .container {
 
         margin-bottom: 16px;
 }
-.subscription-field::placeholder {
+.subscription-label::placeholder {
     color: #FFF;
         font-size: 12px;
         font-weight: 400;
