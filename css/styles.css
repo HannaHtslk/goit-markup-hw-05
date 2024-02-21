@@ -543,6 +543,7 @@ footer .container {
     letter-spacing: 0.04em;
     padding-left: 16px;
     color: #ffffff;
+    line-height: 2;
 }
 
 .subscribe-btn {
@@ -581,13 +582,13 @@ footer .container {
     height: 100%;
     z-index: 10000;
     background-color: rgba(46, 47, 66, 0.40);
-
+/*
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
+                visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+} 
  .backdrop.is-open {
 opacity: 1;
 visibility: visible;
@@ -657,6 +658,9 @@ pointer-events: initial;
 
 .modal-form-field {
     margin-bottom: 8px;
+}
+.modal-form-field-last {
+    margin-bottom: 16px;
 }
 
 .modal-form-label {
@@ -762,11 +766,11 @@ background-color: transparent;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type="checkbox"]:checked + .agreement-checkbox  .checkbox-icon {
+/* input[type="checkbox"]:checked + .agreement-checkbox  .checkbox-icon {
     opacity: 1;
 
 
-}
+} */
 input[type="checkbox"]:checked + .agreement-checkbox {
     background-color: #404BBF;
     border: none;
