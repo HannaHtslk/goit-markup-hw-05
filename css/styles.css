@@ -515,7 +515,6 @@ footer .container {
 }
 .footer-form {
     display: flex;
-    gap: 24px;
 }
 
 .subscription-title {
