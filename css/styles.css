@@ -587,7 +587,7 @@ footer .container {
     pointer-events: none;
     visibility: hidden;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-
+                visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 } 
  .backdrop.is-open {
 opacity: 1;
@@ -759,21 +759,21 @@ background-color: transparent;
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+input[type="checkbox"]:checked + .modal-form-agreement .agreement-checkbox {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
+}
 .checkbox-icon {
     opacity: 0;
     fill: #F4F4FD;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type="checkbox"]:checked + .agreement-checkbox  .checkbox-icon {
+ input[type="checkbox"]:checked + .modal-form-agreemen .agreement-checkbox  .checkbox-icon {
     opacity: 1;
-} 
-input[type="checkbox"]:checked + .agreement-checkbox {
-    background-color: #404BBF;
-    border: none;
-    fill: #F4F4FD;
 }
+
 .agreement-link {
     color:  #4D5AE5;
         font-size: 12px;
